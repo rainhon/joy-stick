@@ -1,0 +1,12 @@
+/* pages/controller.wxss */
+.joy-stick{
+  height:100rpx;
+  width: 100rpx;
+  background-color: yellow;
+  display:flex;
+}
+.control-area{
+  background-color:rgba(165, 21, 129, 0.644);
+  height:50vh;
+  width:80vw;
+}
