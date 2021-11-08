@@ -3,8 +3,8 @@ Page({
   data: {
     x: 0,
     y: 0,
-    stickWidth: '10rpx',
-    stickHeight: '10rpx',
+    stickWidth: '20',
+    stickHeight: '20',
     areaWidth: 0,
     areaHeight: 0,
   },
@@ -14,20 +14,20 @@ Page({
       let width = res.width
       let height = res.height
       this.setData({
-        x: width/2,
-        y: height/2,
+        x: width/2 - this.data.stickWidth/2,
+        y: height/2 - this.data.stickHeight/2,
         areaWidth:width,
         areaHeight:height,
       })
-      // console.log(this.x)
     }).exec()
     // let controlAreaWidth=
   },
 
   resetController: function(){
+    console.log(this.data.stickWidth/2 , this.data.stickHeight/2)
     this.setData({
-      x: this.data.areaWidth/2,
-      y: this.data.areaHeight/2
+      x: this.data.areaWidth/2 - this.data.stickWidth/2,
+      y: this.data.areaHeight/2 - this.data.stickHeight/2
     })
   }
 })

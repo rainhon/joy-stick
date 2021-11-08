@@ -1,7 +1,6 @@
-<!--pages/controller.wxml-->
 <text>pages/controller.wxml</text>
 <movable-area class="control-area">
-  <movable-view bindtouchend="resetController" x="{{x}}" y="{{y}}" direction="all" class="joy-stick">
+  <movable-view bindtouchend="resetController" x="{{x}}px" y="{{y}}px" style="height:{{stickWidth}}px;width:{{stickHeight}}px;" direction="all" class="joy-stick">
     
   </movable-view>
 </movable-area>

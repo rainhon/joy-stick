@@ -1,7 +1,5 @@
 /* pages/controller.wxss */
 .joy-stick{
-  height:100rpx;
-  width: 100rpx;
   background-color: yellow;
   display:flex;
 }
