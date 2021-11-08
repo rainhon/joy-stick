@@ -5,6 +5,7 @@
 }
 .control-area{
   background-color:rgba(165, 21, 129, 0.644);
-  height:50vh;
-  width:80vw;
+  height:400rpx;
+  width:400rpx;
+  border-radius: 400rpx;
 }
